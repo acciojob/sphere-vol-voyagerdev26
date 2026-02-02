@@ -9,7 +9,7 @@ function volume_sphere(e) {
 		document.getElementById("volume").value="NaN";
 	}
 	else{
-		document.getElementById("volume").value=((4/3)*3.14*(valR**3)).toFixed(4);
+		document.getElementById("volume").value=((4/3)*(22/7)*(valR**3)).toFixed(4);
 	}
 } 
 
